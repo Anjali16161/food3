@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delish Bites</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-[80vh]" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="text-center text-white">
+        <h1 class="text-5xl font-bold mb-4">Delish Bites</h1>
+        <p class="text-lg mb-6">Where every bite feels like home</p>
+        <a href="#menu" class="px-6 py-3 bg-yellow-500 rounded-full font-semibold shadow-lg hover:bg-yellow-400">Explore Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-16 max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Menu</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1604908176997-674d0cfb0e6c" alt="Burger" class="h-48 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Classic Burger</h3>
+          <p class="text-gray-600 mb-4">Juicy beef patty, cheddar cheese, fresh lettuce & tomato.</p>
+          <span class="text-yellow-600 font-bold">$12</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088" alt="Pasta" class="h-48 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Creamy Alfredo Pasta</h3>
+          <p class="text-gray-600 mb-4">Rich Alfredo sauce with fettuccine & parmesan cheese.</p>
+          <span class="text-yellow-600 font-bold">$15</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754" alt="Salad" class="h-48 w-full object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Fresh Garden Salad</h3>
+          <p class="text-gray-600 mb-4">A mix of crisp greens, cherry tomatoes, cucumbers & vinaigrette.</p>
+          <span class="text-yellow-600 font-bold">$10</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-yellow-50 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">What Our Customers Say</h2>
+      <div class="space-y-8">
+        <p class="text-lg italic">“The best burger I’ve ever had! Highly recommend Delish Bites.” – Sarah J.</p>
+        <p class="text-lg italic">“Fresh ingredients and amazing flavors. I’m coming back!” – Michael K.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+    <p>&copy; 2025 Delish Bites. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
